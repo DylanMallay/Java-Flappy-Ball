@@ -21,7 +21,7 @@ function Pipe() {
   this.show = function() {
     fill(40);
      if(this.highlight) {
-      fill(255,0,0);
+      fill(255,0,255);
      }
     rect(this.x, 0, this.w, this.top);
     rect(this.x, height-this.bottom, this.w, this.bottom);
